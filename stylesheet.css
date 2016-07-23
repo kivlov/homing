@@ -1,0 +1,198 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  max-width: 970px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  text-align: center;
+}
+
+header h1 {
+  letter-spacing: -4px;
+  text-transform: uppercase;
+  font-size: 4em;
+}
+
+nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+nav ul {
+  padding-left: 0;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav li a {
+  padding: 10px 5px;
+  display: block
+}
+
+ul.col-nav {
+  text-align: left;
+}
+
+ul.col-nav li {
+  display: block;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.sr-only{
+  display: none !important;
+}
+
+form .form-group {
+  margin-top: 10px;
+  margin-bottom: 10px
+}
+
+form .form-group label {
+  display: block;
+}
+
+form .form-group .form-control {
+  height: 30px;
+  padding-left: 5px;
+  padding-right: 5px;
+  max-width: 240px;
+  width: 100%;
+}
+
+#homing {
+  position: fixed;
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
+}
+form .form-group .submit {
+  background: #2c3e50;
+  border: 1px solid #2c3e50;
+  color: #fff;
+  display: block;
+  max-width: 254px;
+  width: 100%;
+  text-transform: uppercase;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+
+form .form-group .submit:hover {
+  background: #34495e;
+  cursor: pointer;
+}
+
+form.cookie label {
+  font-size: 12px;  
+}
+
+form.cookie label:hover {
+  cursor: pointer;
+}
+
+#homing .wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  position: relative;
+}
+
+#homing .wrapper .overlay {
+  position: absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right: 0;
+  background: #fff;
+  opacity: 0.7;
+}
+
+#homing article {
+  position: relative;
+  background: #fff;
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 1;
+  -webkit-box-shadow: 0px 1px 1px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow: 0px 1px 1px 0px rgba(50, 50, 50, 0.75);
+  box-shadow: 0px 1px 1px 0px rgba(50, 50, 50, 0.75);
+}
+
+#homing article header {
+  height: 240px;
+  background-color: #737bac;
+  background-image: url('images/sample-image.jpg');
+  background-size: 100%;  
+  position: relative;
+}
+#homing article header h2 {
+  position: absolute;
+  bottom: 0;
+  left: 10px;
+  color: #fff;
+  text-shadow: 2px 2px rgba(50, 50, 50, 0.75);
+}
+
+#homing article form {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#homing form.cookie {
+  margin-bottom: 0;
+}
+
+#homing_close {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background: #000;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+  line-height: 1;
+}
+
+#homing_close i {
+  position: relative;
+  right:2px;
+  top:1px;
+}
+
+#homing_close:hover {
+  cursor: pointer;
+}
+#homing_close:focus {
+  outline: 0;
+}
+@media screen and (min-width: 768px) {
+
+  header h1 {
+    font-size: 6em;
+    margin: 0.27em 0;
+    text-transform: uppercase;
+  }
+
+}
