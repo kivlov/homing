@@ -189,6 +189,10 @@ form.cookie label:hover {
   outline: 0;
 }
 
+#homing {
+  display: none;
+}
+
 @media screen and (min-width: 768px) {
 
   header h1 {
