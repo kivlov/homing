@@ -184,9 +184,11 @@ form.cookie label:hover {
 #homing_close:hover {
   cursor: pointer;
 }
+
 #homing_close:focus {
   outline: 0;
 }
+
 @media screen and (min-width: 768px) {
 
   header h1 {
